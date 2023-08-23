@@ -33,7 +33,7 @@ A user-friendly platform designed to help you create and manage your online port
 
 ## Screenshots
 
-![Screenshot](https://github.com/Yab1/portfolio-website-3/blob/main/src/assets/screenshot.png)
+![Screenshot](https://github.com/Yab1/portfolio-website-2/blob/main/src/assets/screenshot.png)
 
 ## Contributing
 
