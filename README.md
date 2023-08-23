@@ -42,6 +42,5 @@ Contributions are welcome! If you'd like to enhance Your Portfolio Website or ad
 ---
 
 Visit Site [Live Demo]()
-
 Connect with me:  
 Visit my website at [Yeabsera](yeabsera-girxkocyp-yab1.vercel.app) | Follow me on [LinkedIn](https://www.linkedin.com/in/yeabsera-lisanework-7570981ba/) | Check out my [GitHub](https://github.com/Yab1)
