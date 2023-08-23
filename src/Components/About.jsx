@@ -7,7 +7,6 @@ import data from "../data/data.json";
 // Import Assets
 import dots from "../assets/download.svg";
 import avatar from "../assets/avatar_yab.png";
-import resume from "../assets/Yeabsera.pdf";
 
 // Importing the motion module from "framer-motion" for animations.
 import { motion } from "framer-motion";
@@ -96,7 +95,7 @@ export default function About() {
                 className="bg-violet-950 px-6 py-1 rounded-full capitalize text-slate-50 w-fit mb-3"
                 whileTap={{ scale: 0.85 }}
               >
-                <a href={resume} download>
+                <a href="src/assets/Yeabsera.pdf" download>
                   download CV
                 </a>
               </motion.button>
