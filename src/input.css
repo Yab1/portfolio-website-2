@@ -1,0 +1,169 @@
+/* Importing the 'Signika' font family from Google Fonts with various font weights for website styling. */
+
+/* Tailwind CSS directives for base styles, components, and utilities. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+#home {
+  background-image: url("./assets//random_bg.68614832484a3928.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+}
+.text-loop {
+  animation: loop 4s infinite;
+}
+
+@keyframes loop {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  20%,
+  80% {
+    opacity: 1;
+  }
+}
+.progress-bar {
+  transition: width 0.5s ease-in-out;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  cursor: grab;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+label span {
+  background: #8a2be2;
+  border-radius: 10px;
+  height: 2px;
+  margin: 3px 0;
+  transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+label span:nth-of-type(1) {
+  width: 50%;
+}
+
+label span:nth-of-type(2) {
+  width: 35%;
+}
+
+label span:nth-of-type(3) {
+  width: 50%;
+}
+
+label ul {
+  /* transform: translate(-200px); */
+  /* opacity: 0; */
+  color: red;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(1) {
+  transform-origin: bottom;
+  transform: rotatez(45deg) translate(8px, 4px);
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(2) {
+  transform-origin: top;
+  transform: translate(-200px);
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+  transform-origin: bottom;
+  width: 50%;
+  transform: translate(4px, -8px) rotatez(-45deg);
+}
+input[type="checkbox"]:checked ~ menu-container {
+  background-color: white;
+  min-height: 100vh;
+}
+.active {
+  /* transform: rotate(10deg); */
+  transition-property: transform;
+  animation: move 200ms linear forwards;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+#scrollPath {
+  background: rgb(255, 255, 255 0.05);
+}
+#progressbar {
+  background: linear-gradient(to top, #7c3aed, #c026d3);
+  animation: animate 5s linear infinite;
+}
+#progressbar::before {
+  background: linear-gradient(to top, #7c3aed, #c026d3);
+  filter: blur(1 0px);
+}
+#progressbar::after {
+  background: linear-gradient(to left, #7c3aed, #c026d3);
+  filter: blur(30px);
+}
+.grad-animate {
+  background: linear-gradient(to top, #7c3aed, #5b21b6);
+  animation: gradAnimate 15s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+@keyframes gradAnimate {
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
