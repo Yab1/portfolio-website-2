@@ -6,7 +6,7 @@ Welcome to the free to use Portfolio Website, a free-to-use platform for creatin
 
 ## Table of Contents
 
-- [About The Portfolio Website](#about-your-portfolio-website)
+- [About](#about-your-portfolio-website)
 - [Features](#features)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
