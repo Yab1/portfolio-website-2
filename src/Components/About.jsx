@@ -133,10 +133,16 @@ export default function About() {
         viewport={{ once: true, amount: 0.8 }}
       >
         {statistics.map((stat) => {
-          const Icon = eval(stat.icon);
           return (
             <div key={stat.name} className="flex gap-3">
-              <Icon size={30} className="mt-2" />
+              {stat.icon === "HandThumbsUp" && (
+                <HandThumbsUp size={30} className="mt-2" />
+              )}
+              {stat.icon === "Calendar" && (
+                <Calendar size={30} className="mt-2" />
+              )}
+              {stat.icon === "People" && <People size={30} className="mt-2" />}
+              {stat.icon === "Trophy" && <Trophy size={30} className="mt-2" />}
               <div>
                 <p className="text-2xl font-black">
                   {stat.count}
