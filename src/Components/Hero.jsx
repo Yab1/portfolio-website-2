@@ -106,7 +106,10 @@ export default function Hero() {
                   target="_blank"
                   className="hover:text-violet-500 cursor:pointer"
                 >
-                  <Icons size={20} />
+                  {social.id === 1 && <Telegram size={20} />}
+                  {social.id === 2 && <Linkedin size={20} />}
+                  {social.id === 3 && <Github size={20} />}
+                  {social.id === 4 && <Pinterest size={20} />}
                 </a>
               );
             })}
