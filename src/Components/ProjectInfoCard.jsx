@@ -1,4 +1,7 @@
+// Importing the motion module from "framer-motion" for animations.
 import { motion } from "framer-motion";
+
+// Importing icons from the 'react-bootstrap-icons' library.
 import { ArrowLeft, ArrowRight } from "react-bootstrap-icons";
 
 const rightVariants = {

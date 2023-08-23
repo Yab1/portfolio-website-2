@@ -1,5 +1,5 @@
 // State and context hooks from React.
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 
 // Import the JSON data.
 import data from "../data/data.json";
@@ -9,7 +9,7 @@ import dots from "../assets/download.svg";
 import avatar from "../assets/avatar_yab.png";
 
 // Importing the motion module from "framer-motion" for animations.
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 // Importing icons from the 'react-bootstrap-icons' library.
 import { Calendar, HandThumbsUp, People, Trophy } from "react-bootstrap-icons";
@@ -57,7 +57,7 @@ export default function About() {
         whileInView="visible"
         viewport={{ once: true, amount: 0.8 }}
       >
-        <img src={dots} alt="dot" className="" />
+        <img src={dots} alt="dot" />
 
         <h2 className="absolute left-5 top-5 z-1">About Me</h2>
       </motion.div>

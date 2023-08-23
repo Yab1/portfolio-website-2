@@ -2,6 +2,9 @@
 import { motion } from "framer-motion";
 import FormComponent from "./Form";
 
+// Import Assets
+import dots from "../assets/download.svg";
+
 export default function Contact() {
   const titleVariants = {
     hidden: { y: 100, opacity: 0 },
@@ -33,7 +36,7 @@ export default function Contact() {
         whileInView="visible"
         viewport={{ once: true, amount: 0.8 }}
       >
-        <img src="src/assets/download.svg" alt="dot" className="" />
+        <img src={dots} alt="dot" />
 
         <h2 className="absolute left-5 top-5 z-1">Contact</h2>
       </motion.div>

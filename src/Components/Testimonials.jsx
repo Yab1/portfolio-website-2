@@ -4,6 +4,9 @@ import React, { useState, useEffect, useRef } from "react";
 // Import the JSON data.
 import data from "../data/data.json";
 
+// Import Assets
+import dots from "../assets/download.svg";
+
 // Importing the motion module from "framer-motion" for animations.
 import { motion } from "framer-motion";
 
@@ -66,7 +69,7 @@ export default function Testimonials() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.8 }}
         >
-          <img src="src/assets/download.svg" alt="dot" className="" />
+          <img src={dots} alt="dot" />
 
           <h2 className="absolute left-5 top-5 z-1">Clients & Reviews</h2>
         </motion.div>
