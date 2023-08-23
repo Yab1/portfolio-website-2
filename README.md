@@ -6,13 +6,13 @@ Welcome to the free to use Portfolio Website, a free-to-use platform for creatin
 
 ## Table of Contents
 
-- [About](#about-your-portfolio-website)
+- [About](#about)
 - [Features](#features)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 
-## About Your Portfolio Website
+## About
 
 A user-friendly platform designed to help you create and manage your online portfolio. Showcase your projects, skills, and accomplishments in an organized and visually appealing manner. Whether you're a beginner or an experienced professional, this website makes it easy to present yourself to potential clients, employers, or collaborators.
 
