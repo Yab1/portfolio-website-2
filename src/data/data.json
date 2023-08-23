@@ -29,6 +29,23 @@
       "url": "https://www.pinterest.com/Afro_Habesha/"
     }
   ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Web Design and Development",
+      "skillLevel": "75%"
+    },
+    {
+      "id": 2,
+      "title": "User Interface (UI) Development",
+      "skillLevel": "80%"
+    },
+    {
+      "id": 3,
+      "title": "Performance Optimization",
+      "skillLevel": "60%"
+    }
+  ],
   "statistics": [
     {
       "name": "Projects Completed",
