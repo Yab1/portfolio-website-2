@@ -99,66 +99,61 @@
   "projects": [
     {
       "id": 0,
-      "name": "Portfolio Website One",
-      "languages": ["React", "Tailwind", "Flamer Motion"],
-      "url": "tech-visions-nbvbxch8m-yab1.vercel.app",
-      "img": "",
+      "name": "WayFinder Plus",
+      "languages": ["React", "Firebase", "MapBox"],
+      "url": "https://way-finder-plus.vercel.app/",
       "priority": "high"
     },
     {
       "id": 1,
-      "name": "Portfolio Website Two",
-      "languages": ["React", "Tailwind", "BootStrap"],
-      "url": "visio-motion-gtst5xj8d-yab1.vercel.app",
-      "img": "",
+      "name": "WayFinder VR",
+      "languages": ["JavaScript", "Pananullem"],
+      "url": "https://yab1.github.io/WayFinderPlus-VR/",
       "priority": "high"
     },
     {
       "id": 2,
-      "name": "Portfolio Website Three",
-      "languages": ["React", "Tailwind", "BootStrap"],
-      "url": "visio-motion-gtst5xj8d-yab1.vercel.app",
-      "img": "",
+      "name": "MY Portfolio",
+      "languages": ["React", "Flamer Motion"],
+      "url": "https://yeabsera-three.vercel.app/",
       "priority": "high"
     },
     {
       "id": 3,
-      "name": "Simple Notes",
-      "languages": ["React", "MUI"],
-      "url": "https://simple-notes-omega.vercel.app/",
-      "img": "",
+      "name": "Free Portfolio Website",
+      "languages": ["React", "Tailwind"],
+      "url": "https://portfolio-website-3-nu.vercel.app/",
       "priority": "high"
     },
     {
       "id": 4,
-      "name": "Quizzical",
-      "languages": ["React", "Tailwind"],
-      "url": "https://quizzical-psi-one.vercel.app/",
-      "img": "https://github.com/Yab1/Quizzical/blob/main/src/assets/screenshot3.png",
-      "priority": ""
+      "name": "Simple Notes",
+      "languages": ["React", "MUI"],
+      "url": "https://simple-notes-omega.vercel.app/"
     },
     {
       "id": 5,
-      "name": "WayFinder Plus",
-      "languages": ["React", "Firebase", "MUI"],
-      "url": "wayfinder-plus-o3b5qr2jc-yab1.vercel.app",
-      "img": "",
-      "priority": ""
+      "name": "Free Portfolio Website",
+      "languages": ["React", "Tailwind"],
+      "url": "https://portfolio-website-2-eta.vercel.app/"
     },
     {
       "id": 6,
-      "name": "WayFinder Admin",
-      "languages": ["React", "Firebase", "MUI"],
-      "url": "",
-      "img": "",
-      "priority": ""
+      "name": "Quizzical",
+      "languages": ["React", "Tailwind"],
+      "url": "https://quizzical-psi-one.vercel.app/"
     },
     {
       "id": 7,
-      "name": "WayFinder VR",
-      "languages": ["JavaScript", "SCSS"],
-      "url": "",
-      "img": ""
+      "name": "WayFinder Admin",
+      "languages": ["React", "Firebase", "MUI"],
+      "url": "https://way-finder-plus-admin.vercel.app/"
+    },
+    {
+      "id": 8,
+      "name": "Free Portfolio Website",
+      "languages": ["React", "Tailwind"],
+      "url": "https://portfolio-website-1-phi.vercel.app/"
     }
   ],
   "testimonials": [

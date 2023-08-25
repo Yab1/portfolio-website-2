@@ -21,7 +21,7 @@ export default function Projects() {
   const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
-    if (showMore) {
+    if (!showMore) {
       const array = data.projects.filter(
         (project) => project.priority === "high"
       );

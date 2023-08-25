@@ -95,7 +95,7 @@ export default function About() {
                 className="bg-violet-950 px-6 py-1 rounded-full capitalize text-slate-50 w-fit mb-3"
                 whileTap={{ scale: 0.85 }}
               >
-                <a href="src/assets/Yeabsera.pdf" download>
+                <a href="src/assets/Yeabsera_Lisanework.pdf" download>
                   download CV
                 </a>
               </motion.button>
